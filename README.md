@@ -1,5 +1,5 @@
 # GA-H610I-DDR4-Hackintosh
-[GUIDE] Installing macOS Monterey (12.5.x) on Gigabyte H610I-DDR4 [OpenCore]
+[GUIDE] Installing macOS Monterey (12.5.x) on Gigabyte H610I-DDR4 [OpenCore 0.8.4]
 
 ### Overview
 [Thanks Fu-Yuxuan-hub for make EFI](https://github.com/Fu-Yuxuan-hub/General-EFI-for-H610-B660-Z690.git)
@@ -18,9 +18,9 @@ Pictures - Coming soon
 
 #### Don't work
 - Sleep mode (Probable, I don't check)
+- VGA-port
 
 #### BIOS settings
-
 #####Disabled:
 - Fast Boot
 - VT-d (**enable if DisableMapper Quirks set True)** 
@@ -41,11 +41,9 @@ Pictures - Coming soon
 - PCI-e x16 switched to Gen3.0 (**If Videocard connect to PCI-e x16 Riser**)
 
 #### Creating USB
-
 **I recommend to create on the USB-flash with USB3.0, because the install will very long.** 
 
 [**Read Dortania GUIDE:**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os)
-
 
 #### Createinstallmedia method
 
