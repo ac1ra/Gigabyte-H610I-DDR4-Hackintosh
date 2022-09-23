@@ -22,7 +22,7 @@ Pictures - Coming soon
 - VGA-port
 
 #### BIOS settings
-#####Disabled:
+##### Disabled:
 - Fast Boot
 - VT-d (**enable if DisableMapper Quirks set True)** 
 - CFG Lock
@@ -31,7 +31,7 @@ Pictures - Coming soon
 - Serial Port
 - Resizable BAR Support
 
-#####Enabled:
+##### Enabled:
 - VT-x
 - UEFI startup mode
 - Above 4G decoding
