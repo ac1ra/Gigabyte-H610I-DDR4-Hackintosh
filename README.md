@@ -17,7 +17,7 @@ Pictures - Coming soon
 - **Ports:** USB 2.0/USB 3.0/LAN/3'5 Jack
 
 #### Don't work
-- Sleep mode (Probable, I don't check)
+- Sleep mode (Probable, I didn't check)
 - VGA-port
 
 #### BIOS settings
