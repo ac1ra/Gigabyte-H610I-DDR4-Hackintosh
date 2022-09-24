@@ -5,15 +5,16 @@
 [Thanks Fu-Yuxuan-hub for make EFI](https://github.com/Fu-Yuxuan-hub/General-EFI-for-H610-B660-Z690.git)
 
 My computer Gigabyte H610I-DDR4 with MacOS 12.5.x. All devices work very well, without sleep-mode.
+![](img/about_this_Hac.png)
 
 #### Performance
-Pictures - Coming soon
+![](img/all_points.png)
 
 #### Specs
 - **CPU:** 12th Gen Intel(R) Core(TM) i3-12100F
 - **RAM:** 2x32Gb DDR4 A-Data Premier [AD4U320032G22-SGN] 3200 Mhz
 - **SSD:** 256Gb 2.5" Digma Run S9 DGSR2256GS93T, SATA III
-- **GPU:** 8Gb Pulse AMD Radeon RX6600 with 
+- **GPU:** 8Gb Sapphire Pulse AMD Radeon RX6600 
 - **Ports:** USB 2.0/USB 3.0/LAN/3'5 Jack
 - **Case:** Fractal Design Node 202 with riser PCI-e x16 3.0
 - **Power Suppy:** 650W SFX Chieftec CSN-650C 
@@ -46,11 +47,11 @@ BIOS - F5
 #### Creating USB
 **I recommend to create on the USB-flash with USB3.0, because the install will very long.** 
 
-[**Read Dortania GUIDE:**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os)
+[**Read Dortania GUIDE for creating USB bootloader**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os)
 
 #### Createinstallmedia method
 
-This is the same mechanism you would use to create a USB installer for a real Mac Mojave.
+This is the same mechanism you would use to create a USB installer for a real Mac Monterey.
 
 It is a single line, executed in Terminal:
 
