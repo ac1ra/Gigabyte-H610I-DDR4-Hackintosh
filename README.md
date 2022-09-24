@@ -16,6 +16,7 @@ Pictures - Coming soon
 - **GPU:** 8Gb Pulse AMD Radeon RX6600 with 
 - **Ports:** USB 2.0/USB 3.0/LAN/3'5 Jack
 - **Case:** Fractal Design Node 202 with riser PCI-e x16 3.0
+- **Power Suppy:** 650W SFX Chieftec CSN-650C 
 
 #### Don't work
 - Sleep mode (Probable, I didn't check)
