@@ -22,6 +22,7 @@ Pictures - Coming soon
 - VGA-port
 
 #### BIOS settings
+BIOS - F5
 ##### Disabled:
 - Fast Boot
 - VT-d (**enable if DisableMapper Quirks set True)** 
