@@ -1,10 +1,10 @@
 # Gigabyte H610I DDR4 EFI Hackintosh
-[GUIDE] Installing macOS Monterey (12.5.x) on Gigabyte H610I-DDR4 [OpenCore 0.8.2]
+[GUIDE] Installing macOS Monterey (12.5.x) on Gigabyte H610I DDR4 [OpenCore 0.8.2]
 
 ### Overview
 [Thanks Fu-Yuxuan-hub for make EFI](https://github.com/Fu-Yuxuan-hub/General-EFI-for-H610-B660-Z690.git)
 
-My computer Gigabyte H610I-DDR4 with MacOS 12.5.x. All devices work very well, without sleep-mode.
+My computer on base 12gen Intel. Motherboard is Gigabyte H610I DDR4 with MacOS 12.x. All devices work very well. Sleep-mode works.
 ![](img/about_this_Hac.png)
 
 #### Performance
@@ -20,7 +20,6 @@ My computer Gigabyte H610I-DDR4 with MacOS 12.5.x. All devices work very well, w
 - **Power Suppy:** 650W SFX Chieftec CSN-650C 
 
 #### Don't work
-- Sleep mode (Probable, I didn't check)
 - VGA-port
 
 #### BIOS settings
@@ -73,22 +72,5 @@ Copy EFI folder to EFI partition.
 > keepsyms=1 debug=0x100 agdpmod=pikera -wegnoigpu alcid=66
 
 Reboot system. MacOS Monterey is ready.
-
-#### Adding: Problem with hibernation ####
-
-Everything required for CPU/IGPU power management is already installed with the steps above.
-There is no longer any need to use the ssdtPRgen.sh script.
-
-Be aware that hibernation (suspend to disk or S4 sleep) is not well supported on hackintosh.
-
-You should disable it:
-Code:
-> sudo pmset -a hibernatemode 0
- 
-> sudo rm /var/vm/sleepimage
-
-> sudo mkdir /var/vm/sleepimage
-
-Always check your hibernatemode after updates and disable it. System updates tend to re-enable it, although the trick above (making sleepimage a directory) tends to help.
 
 **Enjoy it!**
