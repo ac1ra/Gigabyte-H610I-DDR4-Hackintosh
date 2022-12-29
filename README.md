@@ -1,7 +1,7 @@
 # Gigabyte H610I DDR4 EFI Hackintosh
 [GUIDE] Installing macOS Monterey (12.x) on Gigabyte H610I DDR4 [OpenCore 0.8.2]
 
-#####UPD 28.12.2022: 
+##### UPD 28.12.2022: 
 
 - fixed with Processor type on About This MacOS
 - System updated to MacOS Monterey 12.6.2. I recommend update, because update fixed problems with memory manager, when system slowed down durning load app.
