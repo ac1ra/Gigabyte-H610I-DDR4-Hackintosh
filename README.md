@@ -28,7 +28,7 @@ My computer on base 12gen Intel. Motherboard is Gigabyte H610I DDR4 with MacOS 1
 - VGA-port
 
 #### BIOS settings
-BIOS - F6 (F22 don't work. I don't recommend.)
+BIOS - F5
 ##### Disabled:
 - Fast Boot
 - VT-d (**enable if DisableMapper Quirks set True)** 
