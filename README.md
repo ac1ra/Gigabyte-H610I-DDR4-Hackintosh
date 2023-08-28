@@ -1,6 +1,11 @@
 # Gigabyte H610I DDR4 EFI Hackintosh
 [GUIDE] Installing macOS Monterey (12.x) on Gigabyte H610I DDR4 [OpenCore 0.8.2]
 
+##### UPD 28.08.2023: 
+
+- System updated to MacOS Venture 13.5. Fixed minor problems.
+- Don't forget update serial number for MacPro 7.1.
+
 ##### UPD 28.12.2022: 
 
 - fixed with Processor type on About This MacOS
