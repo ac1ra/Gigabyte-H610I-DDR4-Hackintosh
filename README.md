@@ -1,5 +1,10 @@
 # Gigabyte H610I DDR4 EFI Hackintosh
-[GUIDE] Installing macOS Monterey (12.x) on Gigabyte H610I DDR4 [OpenCore 0.8.2]
+[GUIDE] Installing macOS Sonoma (14.x) on Gigabyte H610I DDR4 [OpenCore 0.9.x]
+
+##### UPD 26.11.2024: 
+
+- System updated to MacOS Sonoma 14.7. Work perfect.
+- Don't forget update serial number for MacPro 7.1.
 
 ##### UPD 28.08.2023: 
 
@@ -14,7 +19,7 @@
 ### Overview
 [Thanks Fu-Yuxuan-hub for make EFI](https://github.com/Fu-Yuxuan-hub/General-EFI-for-H610-B660-Z690.git)
 
-My computer on base 12gen Intel. Motherboard is Gigabyte H610I DDR4 with MacOS 12.x. All devices work very well. Sleep-mode works.
+My computer on base 12gen Intel. Motherboard is Gigabyte H610I DDR4 with MacOS 14.x. All devices work very well. Sleep-mode works.
 ![](img/about_this_Hac.png)
 
 #### Performance
